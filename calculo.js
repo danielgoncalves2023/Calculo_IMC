@@ -12,16 +12,16 @@ function imc(){
         const valorIMC = (peso / (altura * altura)).toFixed(2)
 
         if(valorIMC < 18.5){
-            resultado.innerHTML = (`Olá ${nome}, seu IMC é ${valorIMC}. Você está abaixo do peso.`)
+            resultado.innerHTML = (`Olá ${nome}, o seu IMC é ${valorIMC}. Você está abaixo do peso.`)
         }else if(valorIMC < 24.9){
-            resultado.innerHTML = (`Olá ${nome}, seu IMC é ${valorIMC}. Você está dentro do seu peso normal.`)
+            resultado.innerHTML = (`Olá ${nome}, o seu IMC é ${valorIMC}. Você está dentro do seu peso normal.`)
         }else if(valorIMC < 29.9){
-            resultado.innerHTML = (`Olá ${nome}, seu IMC é ${valorIMC}. Você está com sobrepeso.`)
+            resultado.innerHTML = (`Olá ${nome}, o seu IMC é ${valorIMC}. Você está com sobrepeso.`)
         }else if(valorIMC < 34.9){
-            resultado.innerHTML = (`Olá ${nome}, seu IMC é ${valorIMC}. Você está com obesidade grau I.`)
+            resultado.innerHTML = (`Olá ${nome}, o seu IMC é ${valorIMC}. Você está com obesidade grau I.`)
         }else if(valorIMC < 39.9){
-            resultado.innerHTML = (`Olá ${nome}, seu IMC é ${valorIMC}. Você está com obesidade grau II(considerada severa).`)
-        }else{resultado.innerHTML = (`Olá ${nome}, seu IMC é ${valorIMC}. Você está com obesidade grau III(considerada mórbida).`)
+            resultado.innerHTML = (`Olá ${nome}, o seu IMC é ${valorIMC}. Você está com obesidade grau II(considerada severa).`)
+        }else{resultado.innerHTML = (`Olá ${nome}, o seu IMC é ${valorIMC}. Você está com obesidade grau III(considerada mórbida).`)
         }
     }else{
         resultado.innerHTML = (`Favor verificar se todos os dados foram preenchidos corretamente.`)

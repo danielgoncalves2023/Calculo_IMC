@@ -102,15 +102,17 @@
     <div>
         <form id="campodeDados">
             <label>Nome</label>
-            <input id="nome" class="form-control form-control-lg campoDados" type="text" name="nome"
-            placeholder="" aria-label=".form-control-lg example" maxlength="15" required>
-            <label>Peso</label>
-            <input id="peso" class="form-control form-control-lg campoDados" type="number" name="peso"
-            placeholder="" aria-label=".form-control-lg example" required>
-            <label>Altura</label>
-            <input id="altura" class="form-control form-control-lg campoDados" type="number" name="altura"
-            placeholder="" aria-label=".form-control-lg example" required>
-            <input id="botaoCalculo" type="submit" class="btn btn-secondary" value="Calcular">
+                <input id="nome" class="form-control form-control-lg campoDados" type="text" name="nome"
+                placeholder="" aria-label=".form-control-lg example" maxlength="15" required>
+            <label>Peso (KG)</label>
+                <input id="peso" class="form-control form-control-lg campoDados" type="number" name="peso"
+                placeholder="Ex.: 68,2" aria-label=".form-control-lg example" required>
+            <label>Altura (M)</label>
+                <input id="altura" class="form-control form-control-lg campoDados" type="number" name="altura"
+                placeholder="Ex.: 1,78" aria-label=".form-control-lg example" required>
+            <div class="text-center">
+                <input id="botaoCalculo" type="submit" class="btn btn-dark btn-lg btn-block" value="Calcular">
+            </div>
             <br>
             <h3 id="resultado"></h3>
         </form>
