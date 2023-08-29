@@ -36,6 +36,14 @@ body p{
     background-color: #DFD7BF;
 }
 
+table thead {
+    text-align: center;
+}
+
+.fonteTexto {
+    font-size: small;
+}
+
 table {
     text-align: center;
 }
