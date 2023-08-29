@@ -1,0 +1,74 @@
+* {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+}
+
+
+header h1{
+    background-color: #3F2305;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.rounded {
+    padding: ;
+}
+
+.container {
+    background-color: #F2EAD3;
+    padding: 0.5rem;
+    margin: 0.8rem;
+}
+
+body h2{
+    margin: 1rem;
+    padding: 0.7rem;
+    background-color: #DFD7BF;
+    color: black;
+}
+
+body p{
+    margin: 1rem;
+    padding: 0.7rem;
+    background-color: #DFD7BF;
+}
+
+table {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    margin-left: 20%;
+}
+
+#campodeDados {
+    margin: 0.1rem;
+    padding: 0.3rem;
+}
+
+.campoDados {
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+#resultado {
+    text-align: center;
+}
+
+#rodape {
+    background: #3F2305;
+    margin: 0;
+    padding: 0;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    background-color: #3F2305;
+    color: white;
+    text-align: center;
+}
